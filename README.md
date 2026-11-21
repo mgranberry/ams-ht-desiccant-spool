@@ -13,11 +13,11 @@ The latest CAD assembly is available in [STEVE CAD](https://stevecad.studio/?doc
 
 ## Design overview
 
-The spool is nominally 200 mm across the roller rim and 62 mm wide. Its cylindrical and end-face screens provide airflow, and internal fins lift the beads as the AMS-HT rotates the drum. A curved collector surface brings beads to an integral radial outlet. A straight nozzle lip fits into a receiving container. The removable fill lid and both port plugs use bayonet retention.
+The spool is nominally 200 mm across the roller rim and 67 mm wide. Its cylindrical and end-face screens provide airflow, and internal fins lift the beads as the AMS-HT rotates the drum. A curved collector surface brings beads to an integral radial outlet. A straight nozzle lip fits into a receiving container. The removable fill lid and both port plugs use bayonet retention.
 
 ## Printing
 
-The included 3MF plates were sliced in Bambu Studio 2.9.1 using the X1 Carbon 0.4 mm nozzle, Bambu ABS, 0.20 mm layers, and supports disabled. The two production plates use about 201 g of ABS including brims. Print the fit coupons first, then test lid retention and plug operation after an ABS heat cycle.
+The included 3MF plates were sliced in Bambu Studio 2.9.1 using the X1 Carbon 0.4 mm nozzle, Bambu ABS, 0.20 mm layers, and supports disabled. The two production plates use about 204 g of ABS including brims. Print the fit coupons first, then test lid retention and plug operation after an ABS heat cycle.
 
 AMS-HT dimensions are 197–202 mm diameter and 50–68 mm width. The nominal spool envelope fits those dimensions.
 
@@ -35,6 +35,6 @@ No license has been selected yet. All rights reserved unless a license file is a
 
 ## STEVE CAD source
 
-The editable CadQuery source exported from STEVE CAD revision 33 is included in `steve/`. The top-level assembly is `steve/main.py`, with component source, shared geometry, bayonet helpers and port geometry alongside it. The source follows STEVE's document module layout and imports its `steve` CAD package when opened there. The rendered and sliced 3MF files remain available in `print/`.
+The editable CadQuery source exported from STEVE CAD revision 34 is included in `steve/`. The top-level assembly is `steve/main.py`, with component source, shared geometry, bayonet helpers and port geometry alongside it. The source follows STEVE's document module layout and imports its `steve` CAD package when opened there. The rendered and sliced 3MF files remain available in `print/`.
 
 The STEVE CAD document remains the live design record: [open the assembly](https://stevecad.studio/?document=f5b3f84b-33ae-484c-a498-2e649abe1053).

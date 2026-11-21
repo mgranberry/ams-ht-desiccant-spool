@@ -51,3 +51,9 @@ Gray is the drum, teal is the lid, and amber is the two plugs. The lid and plugs
 - **Lid retention.** The bayonet uses four lugs, 10° rotation, retaining shoulders and side detents. Check a full-size sector coupon for entry, twist, positive retention and release. Confirm with a loaded prototype that the lid stays locked while rotating warm.
 - **Bead handling.** Check the 1.2 mm vents against the smallest actual beads and fragments. Pour a weighed partial load into the intended container and record spills and residual mass. Inspect the fins, thread roots and collector for trapped beads. Drying rate and bead retention have not been measured.
 - **Slicer regression.** Revision 28 measures 200 × 200 × 62 mm. Its drum and small-parts plates sliced with supports off and no warnings, at about 200.9 g ABS including brims. After the thread fix, rebuild the four-component assembly, repeat the lip-gauge and roller-envelope checks, and reslice with the same 0.4 mm nozzle, 0.20 mm layers and ABS profile. Update both print projects if both mating interfaces change. [Drum plate](../print/ams-ht-drum-abs.3mf) · [Lid and plugs plate](../print/ams-ht-lid-and-plugs-abs.3mf)
+
+## Revision 34 finger grips
+
+The fill plug has a 6 mm pinch web between two 5 mm deep pockets, 0.55 mm nominal radial shaft clearance, and a lighter detent. The outlet has two open sides in the recess so fingers can reach behind the plug flange. Both plugs can be pulled axially after unlocking. The modeled envelope is 200 mm diameter by 67 mm wide.
+
+The sampled insertion and locked positions clear in CAD. Both retaining shoulders block straight withdrawal when locked. The 12 mm side gauge and 30 mm opening gauge still clear. Bambu Studio sliced both production plates and the coupon plate with supports off and no warnings. The two production plates total 203.84 g including brims. The coupon plate uses 39.11 g. Gloveless grip, release force, and hot retention remain physical coupon checks.

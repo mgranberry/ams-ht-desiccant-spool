@@ -44,4 +44,8 @@ for angle in bayonet_angles:
 for tick in (81,90,92):
     notch = cq.Solid.makeBox(1,1.3,3,cq.Vector(90.35,-0.65,3))
     body = body.cut(notch.rotate((0,0,0),(0,0,1),tick))
+# Open opposite sides of the outlet recess down behind the plug flange.
+for side in (-1,1):
+    access = cq.Solid.makeBox(6,10,38,cq.Vector(94.5,10.4 if side > 0 else -20.4,4))
+    body = body.cut(access)
 drum.add("solid", cq.Workplane(obj=body.clean()))
