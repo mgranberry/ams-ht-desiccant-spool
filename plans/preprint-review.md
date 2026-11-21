@@ -57,3 +57,7 @@ Gray is the drum, teal is the lid, and amber is the two plugs. The lid and plugs
 The fill plug has a 6 mm pinch web between two 5 mm deep pockets, 0.55 mm nominal radial shaft clearance, and a lighter detent. The outlet has two open sides in the recess so fingers can reach behind the plug flange. Both plugs can be pulled axially after unlocking. The modeled envelope is 200 mm diameter by 67 mm wide.
 
 The sampled insertion and locked positions clear in CAD. Both retaining shoulders block straight withdrawal when locked. The 12 mm side gauge and 30 mm opening gauge still clear. Bambu Studio sliced both production plates and the coupon plate with supports off and no warnings. The two production plates total 203.84 g including brims. The coupon plate uses 39.11 g. Gloveless grip, release force, and hot retention remain physical coupon checks.
+
+## Revision 35 lower fill grip
+
+The fill grip projects 3 mm past the original plug face, giving a nominal overall spool width of 65 mm. Its 6 mm pinch web sits between two 11 mm wide, 4.2 mm deep finger pockets. Bambu Studio sliced the updated lid and plugs and coupon plates without warnings or supports. Check actual side clearance and spin the empty spool by hand in the AMS-HT before testing a heated load.

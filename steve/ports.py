@@ -33,9 +33,9 @@ def port_plug(radius,head_radius):
                              (radius-0.55,8.3)], a-half,2*half)
             for a in starts(radius)]
     if radius == 28:
-        head = cq.Solid.makeCylinder(head_radius,7,cq.Vector(0,0,-5))
-        pockets = [cq.Workplane("XY",origin=(0,y,-5.1)).slot2D(34,9)
-                   .extrude(5.3).val() for y in (-7.5,7.5)]
+        head = cq.Solid.makeCylinder(head_radius,5,cq.Vector(0,0,-3))
+        pockets = [cq.Workplane("XY",origin=(0,y,-3.1)).slot2D(34,11)
+                   .extrude(4.3).val() for y in (-8.5,8.5)]
         # A 6 mm web between the pockets gives fingers a grip for twist and pull.
         head = head.cut(*pockets)
     return head.fuse(shaft,*lugs).clean()
