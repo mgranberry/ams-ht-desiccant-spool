@@ -32,3 +32,9 @@ See [the preprint review](plans/preprint-review.md) for detailed findings, measu
 ## License
 
 No license has been selected yet. All rights reserved unless a license file is added.
+
+## STEVE CAD source
+
+The editable CadQuery source exported from STEVE CAD revision 33 is included in `steve/`. The top-level assembly is `steve/main.py`, with component source, shared geometry, bayonet helpers and port geometry alongside it. The source follows STEVE's document module layout and imports its `steve` CAD package when opened there. The rendered and sliced 3MF files remain available in `print/`.
+
+The STEVE CAD document remains the live design record: [open the assembly](https://stevecad.studio/?document=f5b3f84b-33ae-484c-a498-2e649abe1053).
